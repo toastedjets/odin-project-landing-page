@@ -1,0 +1,158 @@
+body {
+    font-family: "Roboto";
+    margin: 0;
+}
+
+.upper-section {
+    background-color: #1f2937;
+    padding: 0 0 88px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #f9f8fa;
+    font-size: 24px;
+    display: flex;
+    gap: 32px;
+    margin: 16px auto 120px 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    justify-content: center;
+    display: flex;
+    padding: 48px;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 8px 0 8px 200px;
+}
+
+.secondary-text,
+a,
+.below-header-button {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.secondary-text {
+    margin: 0 0 0 200px;
+}
+
+.below-header-button {
+    margin: 8px 0 0 200px;
+    background-color: #3882f6;
+    border-radius: 12px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.cat-dog-img {
+    width: 254px;
+    height: auto;
+    margin: 0 200px 0 auto;
+}
+
+.secondary-text p {
+    margin: 0;
+}
+
+.below-header {
+    display: flex;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    margin: 16px 200px 120px 200px;
+}
+
+.mid-section {
+    height: 420px;
+}
+
+.all-animals {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 52px;
+}
+
+.animal img {
+    width: 160px;
+    height: 160px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 240px;
+    justify-content: center;
+}
+
+.author {
+    font-size: 24px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.above-footer {
+    border-radius: 12px;
+    background-color: #3882f6;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    gap: 120px;
+    margin: 80px auto;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.above-footer-text,
+.above-footer-secondary,
+.above-footer-button {
+    color: #f9faf8;
+}
+
+.above-footer-text {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.above-footer-button {
+    background-color: #3882f6;
+    border-radius: 12px;
+    border: 2px solid #f9faf8;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
